@@ -1,8 +1,8 @@
 package solsry.java.part04;
 
-import solsry.java.model.Animal;
-import solsry.java.model.Cat;
-import solsry.java.model.Dog;
+import solsry.java.poly.Animal;
+import solsry.java.poly.Cat;
+import solsry.java.poly.Dog;
 
 public class PolyMethodTest {
     public static void main(String[] args) {
