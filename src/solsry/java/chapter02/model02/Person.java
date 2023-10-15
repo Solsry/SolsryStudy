@@ -1,6 +1,6 @@
 package solsry.java.chapter02.model02;
 
-public class Person {
+public class Person extends Object{
     private String name;
     private int age;
 
@@ -15,5 +15,13 @@ public class Person {
 
     public int getAge() {
         return age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
