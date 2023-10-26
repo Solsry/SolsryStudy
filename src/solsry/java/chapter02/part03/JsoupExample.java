@@ -12,11 +12,13 @@ public class JsoupExample {
         try {
             Document document = Jsoup.connect(url).get();
 
+            int a = 6;
             Element bibleText = document.getElementById("bible_text");
             Element bibleinfoBox = document.getElementById("bibleinfo_box");
 
             System.out.println("bibleText = " + bibleText.text());
             System.out.println("bibleinfoBox = " + bibleinfoBox.text());
+            System.out.println("a = " + a);
 
             Elements num = document.select(".num");
             Elements info = document.select(".info");
